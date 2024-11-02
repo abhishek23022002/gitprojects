@@ -2,8 +2,8 @@
 const databases = require('../DataBase/database')
 const mongodb = require('mongodb')
 exports.fetchingdata = (req, res) => {
-    res.send("Fetching data...");
-    console.log("sdfsdf")
+  
+   return console.log("sdfsdf")
 };
 
 exports.postingdata = async (req,res)=>{
